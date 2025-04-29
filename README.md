@@ -2,8 +2,8 @@
 A small but convenient application for taking notes!
 
 ## A list of features to implement
+- View a specific note
+- View a list of notes
+- Delete a note
 - Create a note
 - Edit a note
-- Delete a note
-- View a list of notes
-- View a specific note 
