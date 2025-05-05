@@ -21,3 +21,10 @@ A small but convenient application for taking notes!
 - CSS
 - JavaScript
 - React.js
+
+## Available colors for notes
+- #5F8B4C grass
+- #FFDDAB cream
+- #FF9A9A pig
+- #945034 chocolate
+- #FFFFFF white
