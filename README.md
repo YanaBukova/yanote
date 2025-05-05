@@ -9,8 +9,9 @@ A small but convenient application for taking notes!
 5. Edit a note
 
 ## A schema of a note
-- id
-- title
-- description
-- isPinned
-- color
+- id: string
+- title: string
+- description: string
+- isPinned: boolean
+- color: string
+- createdDate: string
