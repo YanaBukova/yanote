@@ -15,3 +15,9 @@ A small but convenient application for taking notes!
 - isPinned: boolean
 - color: string
 - createdDate: string
+
+## Tech stack
+- HTML
+- CSS
+- JavaScript
+- React.js
