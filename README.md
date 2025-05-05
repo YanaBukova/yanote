@@ -7,3 +7,10 @@ A small but convenient application for taking notes!
 3. Delete a note
 4. Create a note
 5. Edit a note
+
+## A schema of a note
+- id
+- title
+- description
+- isPinned
+- color
