@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.header {
+    height: 92px;
+    background-color: bisque;
+}
+
+.header__logo {
+    font-family: Gilmer, Arial, Helvetica, sans-serif;
+    font-size: 42px;
+}
