@@ -1,13 +1,33 @@
+:root {
+    --cream-color: #FFDDAB;
+    --cream-light-color: #FFFDF0;
+    --chocolate-color: #945034;
+}
+
 body {
     margin: 0;
+    background-color: var(--cream-light-color); 
 }
 
 .header {
     height: 92px;
-    background-color: bisque;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--cream-color);
+    border-bottom: 2px solid var(--chocolate-color);
 }
 
 .header__logo {
     font-family: Gilmer, Arial, Helvetica, sans-serif;
     font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: var(--chocolate-color);
+}
+
+.content {
+    margin: 72px 48px 48px 48px;
 }
