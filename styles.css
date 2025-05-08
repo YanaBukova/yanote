@@ -9,6 +9,14 @@ body {
     background-color: var(--cream-light-color); 
 }
 
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
 .header {
     height: 92px;
 
@@ -31,3 +39,29 @@ body {
 .content {
     margin: 72px 48px 48px 48px;
 }
+
+.note {
+    display: grid;
+    gap: 16px;
+    background-color: var(--cream-color);
+    border: 1px solid var(--cream-color);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.note:hover {
+    border: 1px solid var(--chocolate-color);
+}
+
+.notes-list {
+    display: grid; 
+    grid-auto-flow: column;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+}
+
+.note__title {
+    font-family: Gilmer, Arial, Helvetica, sans-serif;
+    color: var(--chocolate-color);
+}
+
